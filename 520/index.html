@@ -65,7 +65,7 @@
 		}
 
 		function getText(){
-			var val = Math.random() * 10;
+			/*var val = Math.random() * 10;
 			if(val > 1 && val <= 3){
 				return '爱你一辈子';
 			} else if(val > 3 && val <= 5){
@@ -76,6 +76,29 @@
 				return 'I Love You';
 			}else{
 				return '曹鑫蕊';
+			}*/
+			var val = Math.floor(Math.random() * 10);
+			switch(val) {
+			  case 0:
+			    return '曹鑫蕊';
+			  case 1:
+			    return '我爱你';
+			  case 2:
+			    return 'I Love You';
+			  case 3:
+			    return '一辈子';
+			  case 4:
+			    return '我会';
+			  case 5:
+			    return '在一起';
+			  case 6:
+			    return '呵护你';
+			  case 7:
+			    return '疼爱你';
+			  case 8:
+			    return '永远';
+			  case 9:
+			    return '珍惜你';
 			}
 		}
 
